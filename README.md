@@ -86,9 +86,3 @@ See [LICENSE](LICENSE) for details.
 📧 [s.sobolewski@hotmail.com](mailto:s.sobolewski@hotmail.com)  
 🔗 GitHub: [SSobol77](https://github.com/SSobol77)
 
----
-
-> A solid bridge between your databases and your CSV files.
-
-# Data-import-export-CSV---DataBase
-Block data import and export between .csv format and the most popular databases  DB2, Oracle, AuroraDB, MongoDB, PostgreSQL, MySQL, SQLite3
