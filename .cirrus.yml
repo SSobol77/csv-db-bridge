@@ -1,0 +1,23 @@
+# Cirrus CI configuration for FreeBSD
+
+freebsd_instance:
+  image_family: freebsd-14-2
+  cpu: 2
+  memory: 4G
+
+env:
+  PYTHON_VERSION: 3.11
+
+task:
+  name: FreeBSD Python Tests
+  freebsd_instance:
+    image_family: freebsd-14-2
+  install_script:
+    - sudo pkg install -y python${PYTHON_VERSION} py${PYTHON_VERSION}-pip git
+    - sudo ln -s /usr/local/bin/python${PYTHON_VERSION} /usr/local/bin/python
+    - sudo ln -s /usr/local/bin/pip${PYTHON_VERSION} /usr/local/bin/pip
+    - pip install --upgrade pip
+    - pip install psycopg2-binary mysql-connector-python pymongo boto3 ibm-db
+  test_script:
+    - python --version
+    - python -m unittest discover -s tests -p 'test_*.py'
