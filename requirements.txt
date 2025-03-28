@@ -1,0 +1,21 @@
+# Core dependencies for csv-db-bridge
+# pip install -r requirements.txt
+
+# SQL databases
+psycopg2-binary>=2.9.9        # PostgreSQL
+mysql-connector-python>=8.0   # MySQL
+cx_Oracle>=8.3                # Oracle
+sqlite3                       # Built-in with Python
+
+# NoSQL
+pymongo>=4.6                  # MongoDB
+
+# Cloud / Other
+boto3>=1.34                   # AuroraDB (AWS)
+ibm-db>=3.1.4                 # IBM DB2
+
+# Testing
+unittest-xml-reporting        # Optional for CI output (unittest enhancement)
+
+# Optional tools
+python-dotenv                 # For loading .env secrets (if needed)
