@@ -4,7 +4,6 @@
 [![Python Versions](https://img.shields.io/badge/python-3.11%20|%203.12%20|%203.13-blue.svg)](https://www.python.org/)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![FreeBSD](https://img.shields.io/badge/FreeBSD-AB2B28?logo=freebsd&logoColor=white)
-[![PRs Welcome](https://iindows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)mg.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/SSobol77/csv-db-sdk/pulls)
 
 <br>
 
