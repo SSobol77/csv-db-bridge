@@ -1,9 +1,10 @@
 ![15_36_23](https://github.com/user-attachments/assets/57718e79-5e8e-4201-bc49-168ab52ace60)
 
-[![Build Status](https://github.com/SSobol77/csv-db-sdk/actions/workflows/test.yml/badge.svg)](https://github.com/SSobol77/csv-db-sdk/actions)
-[![Python Versions](https://img.shields.io/badge/python-3.11%20|%203.12%20|%203.13-blue.svg)](https://www.python.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/SSobol77/csv-db-sdk/pulls)
+[![Python Versions](https://img.shields.io/badge/python-3.11%20|%203.12%20|%203.13-blue.svg)](https://www.python.org/)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![FreeBSD](https://img.shields.io/badge/FreeBSD-AB2B28?logo=freebsd&logoColor=white)
+[![PRs Welcome](https://iindows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)mg.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/SSobol77/csv-db-sdk/pulls)
 
 <br>
 
@@ -142,7 +143,7 @@ pytest --cov-report html --cov=.
 
 ## 📬 **Contact**
 
-**Sergey Sobolewski**  
+**Siergej Sobolewski**  
 [![Email 🚀](https://img.shields.io/badge/Email-s.sobolewski@hotmail.com-blue?logo=protonmail)](mailto:s.sobolewski@hotmail.com)  
 [![GitHub](https://img.shields.io/badge/GitHub-SSobol77-blue?logo=github)](https://github.com/SSobol77)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)
