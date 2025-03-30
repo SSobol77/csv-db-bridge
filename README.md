@@ -71,10 +71,10 @@ boto3 ~= 1.34.112           # Compatible with 1.34.x (1.34.112 ≤ version < 2.0
 ### Upgrade Recommendations
 
 ```bash
-### Safe Upgrade Path
+# Safe Upgrade Path
 pip install --upgrade-strategy eager "csv-db-sdk>=1.2,<2.0"
 
-### Version Pinning Example
+# Version Pinning Example
 echo "csv-db-sdk==1.2.3" >> production-requirements.txt
 ```
 <br>
@@ -97,6 +97,7 @@ pg.import_csv("data/users.csv", "users_table")
 
 # Export table to CSV
 pg.export_csv("analytics/results.csv", "sales_data")
+
 ```
 
 ---
@@ -123,6 +124,8 @@ csv-db-sdk/
 ```
 
 ---
+
+<br>
 
 ## 🔧 **Database Configuration**
 
