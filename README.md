@@ -28,12 +28,57 @@
 
 ### **Installation**
 ```bash
+# ======================
 # Clone repository
+# ======================
 git clone https://github.com/SSobol77/csv-db-sdk.git
 cd csv-db-sdk
 
-# Install dependencies
-pip install -r requirements.txt
+# ======================
+# Installation Guide
+# ======================
+
+### Basic Installation (Core Functionality)
+pip install csv-db-sdk
+
+### Development Setup (Testing + Coverage)
+pip install "csv-db-sdk[testing]"
+
+### Full Installation (All Features)
+pip install "csv-db-sdk[full]"
+
+# ======================
+# Semantic Versioning Policy
+# ======================
+
+### Dependency Management
+Strict SemVer compliance for all dependencies:
+psycopg2-binary ~= 2.9.9    # Compatible with 2.9.x (2.9.9 ≤ version < 3.0)
+boto3 ~= 1.34.112           # Compatible with 1.34.x (1.34.112 ≤ version < 2.0)
+
+### Version Guarantees
+- Major versions (X.0.0): Breaking API changes
+- Minor versions (1.X.0): Backwards-compatible features
+- Patch versions (1.0.X): Backwards-compatible bug fixes
+
+### Compatibility Matrix
+| Component       | Supported Versions | Stability Level |
+|-----------------|--------------------|-----------------|
+| PostgreSQL      | 12-16              | Production      |
+| MySQL           | 5.7-8.1            | Production      |
+| Oracle DB       | 19c-23c            | Verified        |
+| MongoDB         | 4.4-7.0            | Production      |
+
+# ======================
+# Upgrade Recommendations
+# ======================
+
+### Safe Upgrade Path
+pip install --upgrade-strategy eager "csv-db-sdk>=1.2,<2.0"
+
+### Version Pinning Example
+echo "csv-db-sdk==1.2.3" >> production-requirements.txt
+
 ```
 
 ### **Basic Usage**
