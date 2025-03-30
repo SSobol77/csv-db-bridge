@@ -37,7 +37,7 @@ Supported databases:
 ## 📁 Project Structure
 
 ```
-csv-db-bridge/
+csv-db-sdk/
 ├── import/                # CSV ➔ DB (write)
 ├── export/                # DB ➔ CSV (read)
 ├── examples/              # Usage examples
