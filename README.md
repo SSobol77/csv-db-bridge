@@ -28,38 +28,35 @@
 
 ### **Installation**
 ```bash
-# ======================
+
 # Clone repository
-# ======================
 git clone https://github.com/SSobol77/csv-db-sdk.git
 cd csv-db-sdk
 
-# ======================
-# Installation Guide
-# ======================
-
-### Basic Installation (Core Functionality)
+# Basic Installation (Core Functionality)
 pip install csv-db-sdk
 
-### Development Setup (Testing + Coverage)
+# Development Setup (Testing + Coverage)
 pip install "csv-db-sdk[testing]"
 
-### Full Installation (All Features)
+# Full Installation (All Features)
 pip install "csv-db-sdk[full]"
+```
+<br>
 
-# ======================
-# Semantic Versioning Policy
-# ======================
+### Semantic Versioning Policy
 
-### Dependency Management
+##### Dependency Management
 Strict SemVer compliance for all dependencies:
 psycopg2-binary ~= 2.9.9    # Compatible with 2.9.x (2.9.9 ≤ version < 3.0)
 boto3 ~= 1.34.112           # Compatible with 1.34.x (1.34.112 ≤ version < 2.0)
 
-### Version Guarantees
+##### Version Guarantees
 - Major versions (X.0.0): Breaking API changes
 - Minor versions (1.X.0): Backwards-compatible features
 - Patch versions (1.0.X): Backwards-compatible bug fixes
+
+<br>
 
 ### Compatibility Matrix
 | Component       | Supported Versions | Stability Level |
@@ -69,17 +66,18 @@ boto3 ~= 1.34.112           # Compatible with 1.34.x (1.34.112 ≤ version < 2.0
 | Oracle DB       | 19c-23c            | Verified        |
 | MongoDB         | 4.4-7.0            | Production      |
 
-# ======================
-# Upgrade Recommendations
-# ======================
+<br>
 
+### Upgrade Recommendations
+
+```bash
 ### Safe Upgrade Path
 pip install --upgrade-strategy eager "csv-db-sdk>=1.2,<2.0"
 
 ### Version Pinning Example
 echo "csv-db-sdk==1.2.3" >> production-requirements.txt
-
 ```
+<br>
 
 ### **Basic Usage**
 ```python
@@ -102,6 +100,8 @@ pg.export_csv("analytics/results.csv", "sales_data")
 ```
 
 ---
+
+<br>
 
 ## 🏗 **Architecture**
 
