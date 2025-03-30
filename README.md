@@ -1,10 +1,13 @@
-# 📦 csv-db-sdk
 ![15_36_23](https://github.com/user-attachments/assets/57718e79-5e8e-4201-bc49-168ab52ace60)
 
 [![Build Status](https://github.com/SSobol77/csv-db-bridge/actions/workflows/test.yml/badge.svg)](https://github.com/SSobol77/csv-db-bridge/actions)
 [![Python Versions](https://img.shields.io/badge/python-3.11%20|%203.12%20|%203.13-blue.svg)](https://www.python.org/)
 
-**csv-db-bridge** is a universal, cross-database toolkit written in Python to import and export data between `.csv` files and the most popular relational and non-relational databases.
+<br>
+
+# **csv-db-sdk** 
+
+> *csv-db-sdk** is a universal, cross-database toolkit written in Python to import and export data between `.csv` files and the most popular relational and non-relational databases.
 
 Supported operations:
 - 📥 Import from CSV/CLI to database
