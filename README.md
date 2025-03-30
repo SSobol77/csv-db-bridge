@@ -1,4 +1,4 @@
-# 📦 csv-db-bridge
+# 📦 csv-db-sdk
 ![15_36_23](https://github.com/user-attachments/assets/57718e79-5e8e-4201-bc49-168ab52ace60)
 
 [![Build Status](https://github.com/SSobol77/csv-db-bridge/actions/workflows/test.yml/badge.svg)](https://github.com/SSobol77/csv-db-bridge/actions)
