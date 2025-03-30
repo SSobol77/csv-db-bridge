@@ -1,21 +1,26 @@
-# Core dependencies for csv-db-bridge
-# pip install -r requirements.txt
+# ==============================================
+# CSV-DB-SDK: Dependency Management
+# ==============================================
 
-# SQL databases
-psycopg2-binary>=2.9.9        # PostgreSQL
-mysql-connector-python>=8.0   # MySQL
-cx_Oracle>=8.3                # Oracle
-sqlite3                       # Built-in with Python
+# Core Database Drivers
+# --------------------------------------------------
+psycopg2-binary==2.9.9          # PostgreSQL adapter
+mysql-connector-python==8.1.0   # MySQL/MariaDB connector
+cx_Oracle==8.3.0                # Oracle Database interface
+pymongo==4.6.2                  # MongoDB driver
 
-# NoSQL
-pymongo>=4.6                  # MongoDB
+# Cloud Providers
+# --------------------------------------------------
+boto3==1.34.112                 # AWS SDK (AuroraDB RDS Data API)
+ibm-db==3.2.1                   # IBM DB2 connector
 
-# Cloud / Other
-boto3>=1.34                   # AuroraDB (AWS)
-ibm-db>=3.1.4                 # IBM DB2
+# Development & Testing
+# --------------------------------------------------
+unittest-xml-reporting==3.2.0   # XML reports for CI systems
+pytest==8.2.0                   # Modern test framework
+coverage==7.4.4                 # Code coverage analysis
 
-# Testing
-unittest-xml-reporting        # Optional for CI output (unittest enhancement)
-
-# Optional tools
-python-dotenv                 # For loading .env secrets (if needed)
+# Optional Extras
+# --------------------------------------------------
+python-dotenv==1.0.1            # .env support for credentials
+sqlalchemy==2.0.30              # Optional ORM integration
