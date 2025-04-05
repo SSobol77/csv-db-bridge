@@ -12,6 +12,23 @@
   <h3>Universal Database Integration SDK for CSV Operations</h3>
 </div>
 
+<br>
+
+---
+
+<br>
+
+> [!IMPORTANT]
+> **🚫 Ethical Restrictions**
+> 
+> My works cannot be used in:
+> 
+> - Military applications or systems  
+> - Surveillance technologies  
+> - Any activity violating human rights  
+
+<br>
+
 ---
 
 ## 🚀 **Features**
